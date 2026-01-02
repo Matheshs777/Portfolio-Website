@@ -129,7 +129,5 @@ button {
   cursor: pointer;
   transition: background 1s;
 }
-button:hover{
-  background:var(--hover-color);
-}
+
 
