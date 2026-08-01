@@ -6,11 +6,16 @@ import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
+import ParallaxBackground from '../components/ParallaxBackground';
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
     <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
+      
+      {/* 1. Added ParallaxBackground here! */}
+      <ParallaxBackground />
+      
       <HeroText />
       <figure
         className="absolute inset-0"
