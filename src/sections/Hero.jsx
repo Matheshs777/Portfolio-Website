@@ -6,7 +6,7 @@ import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
-import ParallaxBackground from '../components/ParallaxBG';
+import ParallaxBackground from '../components/parallaxBackground';
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
