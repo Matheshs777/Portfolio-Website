@@ -70,7 +70,8 @@ const HeroText = () => {
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.2 }}
-          > Mech Engineer & 3D Designer
+          >
+            Mech Engineer & 3D Designer
           </motion.p>
           <motion.div
             variants={variants}
