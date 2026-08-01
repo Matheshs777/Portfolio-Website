@@ -1,0 +1,50 @@
+import React from "react";
+import Navbar from "./sections/Navbar";
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Projects from "./sections/Projects";
+import Credentials from "./sections/Credentials";
+import Experiences from "./sections/Experiences";
+import Testimonial from "./sections/Testimonial";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
+
+const App = () => {
+  return (
+    <div className="container mx-auto max-w-7xl">
+      <Navbar />
+
+      <section id="home">
+        <Hero />
+      </section>
+
+      <section id="about">
+        <About />
+      </section>
+
+      {/* 1. Projects Section MUST BE FIRST */}
+      <section id="projects">
+        <Projects />
+      </section>
+
+      {/* 2. Credentials Section MUST BE SECOND */}
+      <section id="credentials">
+        <Credentials />
+      </section>
+
+      <section id="work">
+        <Experiences />
+      </section>
+
+      <Testimonial />
+
+      <section id="contact">
+        <Contact />
+      </section>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default App;
