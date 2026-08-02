@@ -7,8 +7,7 @@
 
 A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects. This project is designed to creatively showcase my skills bridging the gap between mechanical design (CAD modeling, simulations) and modern software development.
 
-![Portfolio Banner](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
-
+![Mathesh's Portfolio Banner](./public/assets/logos/portfolio-banner.png)
 ---
 
 ## 📚 Table of Contents
