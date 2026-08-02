@@ -7,6 +7,7 @@ const HeroText = () => {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
   };
+  
   return (
     <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
       {/* Desktop View */}
@@ -48,30 +49,32 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-           Design Mechanics
+            Design Mechanics
           </motion.p>
         </div>
       </div>
+
       {/* Mobile View */}
-      <div className="flex- flex-col space-y-6 md:hidden">
+      {/* Added overflow-hidden and px-4 so text never touches the edge of the screen */}
+      <div className="flex flex-col space-y-4 md:hidden px-4 overflow-hidden w-full max-w-full">
         <motion.p
-          className="text-4xl font-medium"
+          className="text-2xl font-medium" // Reduced from 4xl
           variants={variants}
           initial="hidden"
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi,I'm Mathesh
+          Hi, I'm Mathesh
         </motion.p>
-        <div>
+        <div className="flex flex-col gap-2">
           <motion.p
-            className="text-5xl font-black text-neutral-300"
+            className="text-3xl sm:text-4xl font-black text-neutral-300 leading-tight" // Reduced from 5xl
             variants={variants}
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Mech Engineer & 3D Designer
+            Mech & 3D Designer
           </motion.p>
           <motion.div
             variants={variants}
@@ -81,11 +84,11 @@ const HeroText = () => {
           >
             <FlipWords
               words={words}
-              className="font-bold text-white text-7xl"
+              className="font-bold text-white text-5xl sm:text-6xl" // Scaled down from 7xl so "Simulate" fits
             />
           </motion.div>
           <motion.p
-            className="text-4xl font-black text-neutral300"
+            className="text-2xl sm:text-3xl font-black text-neutral-300" // Reduced from 4xl & fixed typo
             variants={variants}
             initial="hidden"
             animate="visible"
