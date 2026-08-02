@@ -8,6 +8,8 @@ import Experiences from "./sections/Experiences";
 import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
@@ -43,6 +45,10 @@ const App = () => {
       </section>
 
       <Footer />
+
+      {/* ADD THESE TWO LINES RIGHT HERE */}
+      <SpeedInsights />
+      <Analytics />
     </div>
   );
 };
