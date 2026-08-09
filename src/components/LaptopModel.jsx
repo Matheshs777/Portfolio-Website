@@ -1,11 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
+import { useThree } from '@react-three/fiber'; // <-- Added useThree
 import * as THREE from 'three';
 
 export function LaptopModel({ texturePath, ...props }) {
-  // 1. Load the scene inside the component
   const { scene } = useGLTF('/models/asus_rog_strix_scar_17.gltf');
   const activeVideoRef = useRef(null);
+  
+  // Access the WebGL renderer to get max graphics capabilities
+  const { gl } = useThree(); 
 
   useEffect(() => {
     if (!texturePath || !scene) return;
@@ -14,15 +17,20 @@ export function LaptopModel({ texturePath, ...props }) {
 
     // Helper function to apply the texture properly
     const applyTextureToScreen = (texture) => {
-      texture.flipY = true; // Flips the texture right-side up
+      texture.flipY = true; 
       
       // --- ZOOM OUT FIX ---
-      // Set the transform origin to the center of the image
       texture.center.set(0.5, 0.5); 
-      // Increase these numbers (> 1) to zoom out. 
-      // Adjust from 1.2 to 1.1 or 1.3 if you need it to fit differently!
       texture.repeat.set(1.2, 1.2); 
       // --------------------
+
+      // --- TRUE HD QUALITY FIX ---
+      // Maximizes texture crispness when viewed at an angle
+      texture.anisotropy = gl.capabilities.getMaxAnisotropy();
+      texture.generateMipmaps = true;
+      texture.minFilter = THREE.LinearMipmapLinearFilter;
+      texture.magFilter = THREE.LinearFilter;
+      // ---------------------------
 
       if ('colorSpace' in texture) {
         texture.colorSpace = THREE.SRGBColorSpace;
@@ -36,7 +44,7 @@ export function LaptopModel({ texturePath, ...props }) {
         ) {
           child.material = new THREE.MeshBasicMaterial({
             map: texture,
-            name: 'Layar', // Keeps the name intact for the next click
+            name: 'Layar', 
             side: THREE.DoubleSide,
           });
           child.material.needsUpdate = true;
@@ -45,14 +53,12 @@ export function LaptopModel({ texturePath, ...props }) {
     };
 
     if (isVideo) {
-      // Clean up previous video to free up memory
       if (activeVideoRef.current) {
         activeVideoRef.current.pause();
         activeVideoRef.current.removeAttribute('src');
         activeVideoRef.current.load();
       }
 
-      // Create an in-memory HTML5 Video Element
       const video = document.createElement('video');
       video.src = texturePath;
       video.crossOrigin = 'Anonymous';
@@ -74,15 +80,13 @@ export function LaptopModel({ texturePath, ...props }) {
         video.load();
       };
     } else {
-      // Load standard image textures (.png, .jpg, .jpeg)
       const textureLoader = new THREE.TextureLoader();
       textureLoader.load(texturePath, (texture) => {
         applyTextureToScreen(texture);
       });
     }
-  }, [scene, texturePath]);
+  }, [scene, texturePath, gl]);
 
-  // 2. Return the primitive object INSIDE the component
   return (
     <group {...props} dispose={null}>
       <primitive object={scene} />
@@ -90,5 +94,4 @@ export function LaptopModel({ texturePath, ...props }) {
   );
 }
 
-// 3. Preload is OUTSIDE the component (and does not reference 'scene')
 useGLTF.preload('/models/asus_rog_strix_scar_17.gltf');
