@@ -17,6 +17,7 @@ const Credentials = () => {
     "/assets/projects/scientificcomputingwithpython.jpeg",
     "/assets/projects/xdesign cut.png",
     "/assets/projects/Getting Started with Artificial Intelligence.jpeg",
+    "/assets/projects/antidrag.jpeg",
   ];
 
   const achievements = [
