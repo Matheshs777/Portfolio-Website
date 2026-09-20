@@ -210,6 +210,27 @@ export const myProjects = [
         path: "/assets/logos/Nvdia.png", 
       },
     ],
+  },
+  {
+    id: 11,
+    title: "Ayask: IIoT Conveyor Monitoring",
+    description:
+      "An intelligent predictive maintenance ecosystem detecting belt surface defects and kinematic anomalies in real time to prevent catastrophic failure.",
+    subDescription: [
+      "Edge-Vision: ESP32-CAM & YOLOv8 scanning for defect classification.",
+      "Safety Analysis: Live calculation of Belt Health Index (BHI) and vibration.",
+      "Failsafe Interlock: Sub-120ms automated motor cutoff integration.",
+    ],
+    href: "https://ayask.vercel.app",
+    logo: "/assets/logos/python.png", 
+    image: "/assets/projects/ayask.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python / YOLOv8",
+        path: "/assets/logos/Python-logo.svg",
+      },
+    ],
   }
 ];
 
