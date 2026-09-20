@@ -189,6 +189,27 @@ export const myProjects = [
         path: "/assets/logos/github.png",
       },
     ],
+  },
+  {
+    id: 10,
+    title: "Omni-Node: AI-Driven Retrofit Ecosystem",
+    description:
+      "An edge-AI hardware solution designed to retrofit legacy CNC machinery, bringing HMLV (High-Mix Low-Volume) manufacturing flexibility to existing infrastructure.",
+    subDescription: [
+      "Designed hardware architecture integrating an NVIDIA Jetson Orin Nano, ESP32 microcontrollers, and MPU6050 sensors.",
+      "Developed comprehensive system block diagrams, unit economics, and hardware BOM documentation.",
+      "Formulated a Master Jury Dossier and Business Proposal for the MSME Idea Hackathon 6.0.",
+    ],
+    href: "https://omni-node-dashboard.vercel.app", 
+    logo: "/assets/logos/Nvdia.png", 
+    image: "/assets/projects/omninode.png", 
+    tags: [
+      {
+        id: 1,
+        name: "Edge AI / IoT",
+        path: "/assets/logos/Nvdia.png", 
+      },
+    ],
   }
 ];
 
@@ -233,6 +254,7 @@ export const experiences = [
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Academic Peer",
