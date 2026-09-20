@@ -1,6 +1,48 @@
 export const myProjects = [
   {
     id: 1,
+    title: "Ayask: IIoT Conveyor Monitoring",
+    description:
+      "An intelligent predictive maintenance ecosystem detecting belt surface defects and kinematic anomalies in real time to prevent catastrophic failure.",
+    subDescription: [
+      "Edge-Vision: ESP32-CAM & YOLOv8 scanning for defect classification.",
+      "Safety Analysis: Live calculation of Belt Health Index (BHI) and vibration.",
+      "Failsafe Interlock: Sub-120ms automated motor cutoff integration.",
+    ],
+    href: "https://ayask.vercel.app",
+    logo: "/assets/logos/python.png", 
+    image: "/assets/projects/ayask.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python / YOLOv8",
+        path: "/assets/logos/Python-logo.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Omni-Node: AI-Driven Retrofit Ecosystem",
+    description:
+      "An edge-AI hardware solution designed to retrofit legacy CNC machinery, bringing HMLV (High-Mix Low-Volume) manufacturing flexibility to existing infrastructure.",
+    subDescription: [
+      "Designed hardware architecture integrating an NVIDIA Jetson Orin Nano, ESP32 microcontrollers, and MPU6050 sensors.",
+      "Developed comprehensive system block diagrams, unit economics, and hardware BOM documentation.",
+      "Formulated a Master Jury Dossier and Business Proposal for the MSME Idea Hackathon 6.0.",
+    ],
+    href: "https://omni-node-dashboard.vercel.app", 
+    logo: "/assets/logos/Nvdia.png", 
+    image: "/assets/projects/omninode.png", 
+    tags: [
+      {
+        id: 1,
+        name: "Edge AI / IoT",
+        path: "/assets/logos/Nvdia.png", 
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "4-Cylinder Engine Assembly",
     description:
       "3D parametric modeling, component mating, and dynamic motion analysis of an internal combustion engine.",
@@ -22,7 +64,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     title: "Car Suspension & Steering System",
     description:
       "Complete 3D structural model and geometric constraint design for an automotive suspension assembly.",
@@ -43,7 +85,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 5,
     title: "Automotive Car Wheel Assembly",
     description:
       "Precision parametric rim and tire CAD design optimized for structural integrity and aerodynamics.",
@@ -64,7 +106,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     title: "Converging Pipe CFD Simulation",
     description:
       "Computational Fluid Dynamics (CFD) simulation examining velocity contours and pressure distribution.",
@@ -83,10 +125,9 @@ export const myProjects = [
         path: "/assets/logos/ansys.png",
       }
     ],
-    
   },
   {
-    id: 5,
+    id: 7,
     title: "Laminar Pipe Flow Analysis",
     description:
       "Conducted a computational analysis of laminar flow through a constant-diameter pipe in ANSYS 2026 R1 (Student). The simulation effectively captures the development of a parabolic velocity profile, characterized by maximum velocity at the centerline and near-zero velocity at the walls due to the no-slip condition.",
@@ -107,7 +148,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 6,
+    id: 8,
     title: "Cantilever Beam FEA",
     description:
       "Performed a Static Structural analysis of a cantilever beam in ANSYS 2026 R1 (Student). Applied a point load at the free end with a fixed support at the base. Results show a maximum total deformation of 0.1925 mm at the free end, with zero deformation at the fixed support.",
@@ -128,7 +169,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 7,
+    id: 9,
     title: "Turbulent Flow Over a Backward-Facing Step",
     description:
       "Conducted a NASA-validated CFD simulation of turbulent flow over a backward-facing step. Validated wall shear stress and reattachment points against empirical NASA data to ensure computational accuracy.",
@@ -149,7 +190,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 8,
+    id: 10,
     title: "Laminar Boundary Layer Over a Flat Plate",
     description:
       "Simulated the development of a laminar boundary layer over a flat plate. Successfully captured velocity contours and analyzed the boundary layer thickness growth along the length of the plate.",
@@ -170,7 +211,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 9,
+    id: 11,
     title: "Tribute Page",
     description:
       "This tribute page highlights the career achievements and legacy of CR7. Built with HTML & CSS, fully responsive, and hosted live on Vercel.",
@@ -187,48 +228,6 @@ export const myProjects = [
         id: 1,
         name: "Web Development",
         path: "/assets/logos/github.png",
-      },
-    ],
-  },
-  {
-    id: 10,
-    title: "Omni-Node: AI-Driven Retrofit Ecosystem",
-    description:
-      "An edge-AI hardware solution designed to retrofit legacy CNC machinery, bringing HMLV (High-Mix Low-Volume) manufacturing flexibility to existing infrastructure.",
-    subDescription: [
-      "Designed hardware architecture integrating an NVIDIA Jetson Orin Nano, ESP32 microcontrollers, and MPU6050 sensors.",
-      "Developed comprehensive system block diagrams, unit economics, and hardware BOM documentation.",
-      "Formulated a Master Jury Dossier and Business Proposal for the MSME Idea Hackathon 6.0.",
-    ],
-    href: "https://omni-node-dashboard.vercel.app", 
-    logo: "/assets/logos/Nvdia.png", 
-    image: "/assets/projects/omninode.png", 
-    tags: [
-      {
-        id: 1,
-        name: "Edge AI / IoT",
-        path: "/assets/logos/Nvdia.png", 
-      },
-    ],
-  },
-  {
-    id: 11,
-    title: "Ayask: IIoT Conveyor Monitoring",
-    description:
-      "An intelligent predictive maintenance ecosystem detecting belt surface defects and kinematic anomalies in real time to prevent catastrophic failure.",
-    subDescription: [
-      "Edge-Vision: ESP32-CAM & YOLOv8 scanning for defect classification.",
-      "Safety Analysis: Live calculation of Belt Health Index (BHI) and vibration.",
-      "Failsafe Interlock: Sub-120ms automated motor cutoff integration.",
-    ],
-    href: "https://ayask.vercel.app",
-    logo: "/assets/logos/python.png", 
-    image: "/assets/projects/ayask.png",
-    tags: [
-      {
-        id: 1,
-        name: "Python / YOLOv8",
-        path: "/assets/logos/Python-logo.svg",
       },
     ],
   }
