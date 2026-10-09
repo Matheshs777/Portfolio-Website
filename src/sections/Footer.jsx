@@ -70,11 +70,11 @@ const Footer = () => {
         
         {/* Links */}
         <div className="flex gap-2 text-neutral-400 text-xs sm:text-sm">
-          <a href="#" className="hover:text-white transition-colors duration-300">
+          <a href="/portfolio_terms.pdf" target="_blank" rel="noreferrer" className="hover:text-white transition-colors duration-300">
             Terms & Conditions
           </a>
           <span>|</span>
-          <a href="#" className="hover:text-white transition-colors duration-300">
+          <a href="/privacy_policy.pdf" target="_blank" rel="noreferrer" className="hover:text-white transition-colors duration-300">
             Privacy Policy
           </a>
         </div>
