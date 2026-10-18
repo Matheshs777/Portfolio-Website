@@ -10,6 +10,7 @@ export const myProjects = [
       "Digital Twin: Real-time 3D dashboard for defect localization and alerts.",
     ],
     href: "https://ayask.vercel.app",
+    cadHref: "https://sketchfab.com/models/004bd9d5be5a435bb2eb2afaba4d8cc6/embed",
     logo: "/assets/logos/python.png",
     image: "/assets/projects/ayask.png",
     tags: [

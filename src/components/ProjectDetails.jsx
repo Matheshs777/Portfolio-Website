@@ -7,6 +7,7 @@ const ProjectDetails = ({
   image,
   tags,
   href,
+  cadHref,
   closeModal,
 }) => {
   return (
@@ -33,7 +34,7 @@ const ProjectDetails = ({
             <p key={index} className="mb-3 font-normal text-neutral-400">{subDesc}</p>
           ))}
           
-          <div className="flex items-center justify-between mt-4">
+          <div className="flex flex-wrap items-center justify-between gap-4 mt-4">
             <div className="flex gap-3">
               {tags.map((tag) => (
                 <img
@@ -46,15 +47,28 @@ const ProjectDetails = ({
             </div>
             
             {/* FIXED: href and target attributes moved here to the <a> tag */}
-            <a 
-              href={href} 
-              target="_blank" 
-              rel="noreferrer"
-              className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation text-[#4ade80]"
-            >
-              View Project{" "}
-              <img src="assets/arrow-up.svg" className="size-4" alt="arrow" />
-            </a>
+            <div className="flex flex-wrap gap-4">
+              <a 
+                href={href} 
+                target="_blank" 
+                rel="noreferrer"
+                className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation text-[#4ade80]"
+              >
+                View Project{" "}
+                <img src="assets/arrow-up.svg" className="size-4" alt="arrow" />
+              </a>
+              {cadHref && (
+                <a
+                  href={cadHref}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation text-[#4ade80]"
+                >
+                  View 3D CAD{" "}
+                  <img src="assets/arrow-up.svg" className="size-4" alt="arrow" />
+                </a>
+              )}
+            </div>
           </div>
         </div>
       </motion.div>

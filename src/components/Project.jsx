@@ -13,6 +13,7 @@ const Project = ({
   subDescription,
 
   href,
+  cadHref,
 
   image,
 
@@ -87,6 +88,7 @@ const Project = ({
           tags={tags}
 
           href={href}
+          cadHref={cadHref}
 
           closeModal={() => setIsHidden(false)}
 
