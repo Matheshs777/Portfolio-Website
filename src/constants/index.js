@@ -51,7 +51,7 @@ export const myProjects = [
       "Self-Righting Mechanism: Active pump and ballast system for automated capsize recovery.",
       "Sensor Fusion: Integrates GNSS, 10-DOF IMU, and sensors for temperature and salinity tracking.",
     ],
-    href: "https://github.com/Matheshs777/Tarang", 
+    href: "https://sketchfab.com/models/3a9abf7f04e049a8aa149a503ad97ece/embed", 
     logo: "/assets/logos/esp32.png", 
     image: "/assets/projects/tarang.png",
     tags: [
