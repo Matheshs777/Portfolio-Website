@@ -5,7 +5,7 @@
 [![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)](#)
 [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
 
-A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects. This project is designed to creatively showcase my skills bridging the gap between mechanical design (CAD modeling, simulations) and modern software development.
+A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS and motion effects. This project is designed to creatively showcase my skills bridging the gap between mechanical design (CAD modeling, simulations) and modern software development.
 
 ![Mathesh's Portfolio Banner](./public/assets/logos/portfolio-banner.png)
 ---
