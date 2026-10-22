@@ -137,7 +137,7 @@ export const myProjects = [
       "Evaluated pressure drops across varying cross-sections of the pipe.",
       "Generated detailed fluid flow velocity pathlines and data reports.",
     ],
-    href: "https://mathesh-mech.vercel.app",
+    href: "/assets/projects/converging-pipe-report.pdf",
     logo: "/assets/logos/anys.png",
     image: "/assets/projects/converging pipe poster.jpeg",
     tags: [
@@ -158,7 +158,7 @@ export const myProjects = [
       "Key Findings: Fully developed parabolic velocity profile observed",
       "Visualizations: Velocity contour plot and laminar streamline tracking",
     ],
-    href: "https://mathesh-mech.vercel.app",
+    href: "/assets/projects/laminar-pipe-flow-report.pdf",
     logo: "/assets/logos/ansys.png",
     image: "/assets/projects/laminar pipe poster.jpeg",
     tags: [
