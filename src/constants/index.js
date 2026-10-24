@@ -200,7 +200,7 @@ export const myProjects = [
       "Flow Type: Turbulent Flow",
       "Visualizations: Wall Shear X plots and velocity contours",
     ],
-    href: "https://mathesh-mech.vercel.app",
+    href: "/assets/projects/turbulent-flow-over-a-backward-facing-step-report.pdf",
     logo: "/assets/logos/ansys.png",
     image: "/assets/projects/turbulent velocity.jpeg",
     tags: [
@@ -221,7 +221,7 @@ export const myProjects = [
       "Key Physics: Viscous effects and no-slip boundary condition",
       "Visualizations: Velocity contours and vector plots",
     ],
-    href: "https://mathesh-mech.vercel.app",
+    href: "/assets/projects/laminar-boundary-layer-over-a-flat-plate-report.pdf",
     logo: "/assets/logos/ansys.png",
     image: "/assets/projects/v.jpeg",
     tags: [
