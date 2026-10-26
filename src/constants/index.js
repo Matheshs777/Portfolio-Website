@@ -179,7 +179,7 @@ export const myProjects = [
       "Fixed Support + Point Force",
       "Equivalent Stress solved",
     ],
-    href: "https://mathesh-mech.vercel.app",
+    href: "/assets/projects/cantilever-beam-fea-report.pdf",
     logo: "/assets/logos/ansys.png",
     image: "/assets/projects/beam screenshot.jpeg",
     tags: [
