@@ -16,6 +16,7 @@ const Project = ({
   cadHref,
 
   image,
+  previewFit = "cover",
 
   tags,
 
@@ -33,7 +34,7 @@ const Project = ({
 
         className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
 
-        onMouseEnter={() => setPreview(image)}
+        onMouseEnter={() => setPreview({ image, fit: previewFit })}
 
         onMouseLeave={() => setPreview(null)}
 
@@ -89,6 +90,7 @@ const Project = ({
 
           href={href}
           cadHref={cadHref}
+          previewFit={previewFit}
 
           closeModal={() => setIsHidden(false)}
 
@@ -105,4 +107,3 @@ const Project = ({
 
 
 export default Project; 
-

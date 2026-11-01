@@ -39,7 +39,12 @@ const Projects = () => {
         <motion.div
           key={project.id}
           // 2. Automatically trigger the preview when scrolling into view
-          onViewportEnter={() => setPreview(project.texture)} // Update 'project.texture' to whatever your image key is
+          onViewportEnter={() =>
+            setPreview({
+              image: project.image,
+              fit: project.previewFit ?? "cover",
+            })
+          }
           onViewportLeave={() => setPreview(null)}
           // Triggers when 50% of the project component is visible on screen
           viewport={{ amount: 0.5 }} 
@@ -50,12 +55,16 @@ const Projects = () => {
 
       {preview && (
         <motion.img
-          className={`fixed z-50 object-cover h-56 rounded-lg shadow-lg pointer-events-none w-80 ${
+          className={`fixed z-50 h-56 w-80 rounded-lg shadow-lg pointer-events-none ${
+            preview.fit === "contain"
+              ? "object-contain"
+              : "object-cover"
+          } ${
             isMobile 
               ? "top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" // 3. Center fixed on mobile
               : "top-0 left-0" // Positioned by spring values on desktop
           }`}
-          src={preview}
+          src={preview.image}
           // 4. Only apply the mouse-follow spring physics on desktop
           style={isMobile ? {} : { x: springX, y: springY }} 
         />

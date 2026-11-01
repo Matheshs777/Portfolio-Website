@@ -8,6 +8,7 @@ const ProjectDetails = ({
   tags,
   href,
   cadHref,
+  previewFit = "cover",
   closeModal,
 }) => {
   return (
@@ -24,7 +25,15 @@ const ProjectDetails = ({
           <img src="assets/close.svg" className="w-6 h-6" alt="Close modal" />
         </button>
         
-        <img src={image} alt={title} className="w-full rounded-t-2xl" />
+        <img
+          src={image}
+          alt={title}
+          className={`w-full rounded-t-2xl ${
+            previewFit === "contain"
+              ? "aspect-video object-contain"
+              : ""
+          }`}
+        />
         
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
