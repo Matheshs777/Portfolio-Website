@@ -257,22 +257,27 @@ export const myProjects = [
   },
   {
     id: 13,
-    title: "Tribute Page",
+    title: "CR7 Interactive Tribute Experience",
     description:
-      "This tribute page highlights the career achievements and legacy of CR7. Built with HTML & CSS, fully responsive, and hosted live on Vercel.",
+      "An immersive web experience celebrating Cristiano Ronaldo's legacy, featuring a dynamic 1,000-goal tracker, 3D elements, and cinematic animations.",
     subDescription: [
-      "Tech Stack: HTML5 & CSS3",
-      "Fully Responsive Design",
-      "Live Deployment via Vercel",
+      "Core Architecture: Built with React 19, TypeScript 5.9, Vite 7, and Tailwind CSS.",
+      "Motion & 3D: Powered by Three.js (React Three Fiber), GSAP ScrollTrigger, and Motion for React.",
+      "Cinematic UX: Fluid scrolling via Lenis, asset optimization with Sharp, and self-hosted fonts.",
     ],
     href: "https://cr7-tribute-page.vercel.app/",
-    logo: "/assets/logos/github.png",
+    logo: "/assets/logos/react.png", 
     image: "/assets/projects/tribute.png",
     tags: [
       {
         id: 1,
-        name: "Web Development",
-        path: "/assets/logos/github.png",
+        name: "React 19 / TS",
+        path: "/assets/logos/React.png", 
+      },
+      {
+        id: 2,
+        name: "Three.js / GSAP",
+        path: "/assets/logos/threejs.png", 
       },
     ],
   },
