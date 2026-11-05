@@ -46,11 +46,11 @@ export const myProjects = [
     id: 3,
     title: "Vyuha: AI-Driven Robot for VR Digitization",
     description:
-      "An autonomous bipedal robot with an end-to-end spatial virtualization pipeline that digitizes physical spaces into immersive VR digital twins without human entry[cite: 1, 2].",
+      "An autonomous bipedal robot with an end-to-end spatial virtualization pipeline that digitizes physical spaces into immersive VR digital twins without human entry.",
     subDescription: [
-      "Proximal Actuation: Torso-concentrated pancake motors cut distal inertia by >40% for agile stair climbing[cite: 2, 7].",
-      "Bimodal Locomotion: 0.5 Hz stable scanning and 1.3 Hz obstacle clearing reduce power draw by 18–22%[cite: 2, 7].",
-      "Volumetric Twin: ROS 2 LiDAR-IMU SLAM generates collision-ready GLB/USDZ meshes with 75% decimation[cite: 2, 3, 7].",
+      "Proximal Actuation: Torso-concentrated pancake motors cut distal inertia by >40% for agile stair climbing.",
+      "Bimodal Locomotion: 0.5 Hz stable scanning and 1.3 Hz obstacle clearing reduce power draw by 18–22%.",
+      "Volumetric Twin: ROS 2 LiDAR-IMU SLAM generates collision-ready GLB/USDZ meshes with 75% decimation.",
     ],
     href: "https://vyuha-dashboard.vercel.app",
     cadHref: "https://sketchfab.com/models/dc63ef80d56d4c2aa71d8be993a6884c/embed",
@@ -88,6 +88,27 @@ export const myProjects = [
   },
   {
     id: 5,
+    title: "Helicopter Rotor Mechanism Assembly",
+    description:
+      "A helicopter rotor mechanism designed and assembled in SOLIDWORKS, comprising the rotor head, swashplate, pitch links and servos. All parts were modeled from scratch except the standard nuts and bolts.",
+    subDescription: [
+      "Assembly Scale: 255 components (237 part instances and 18 sub-assemblies) with 573 solid bodies.",
+      "Unique Files: 49 unique part files and 6 unique sub-assembly files, 3 levels deep.",
+      "Mates: 404 mates evaluated on rebuild, 47 of them at the top level.",
+    ],
+    href: "https://sketchfab.com/models/ae2fba3dcabb4d818dce0946dafb9274/embed",
+    logo: "/assets/logos/soildworks.png",
+    image: "/assets/projects/helicopter-rotor.png",
+    tags: [
+      {
+        id: 1,
+        name: "SolidWorks",
+        path: "/assets/logos/soildworks.png",
+      },
+    ],
+  },
+  {
+    id: 6,
     title: "4-Cylinder Engine Assembly",
     description:
       "3D parametric modeling, component mating, and dynamic motion analysis of an internal combustion engine.",
@@ -109,7 +130,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Car Suspension & Steering System",
     description:
       "Complete 3D structural model and geometric constraint design for an automotive suspension assembly.",
@@ -130,7 +151,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Automotive Car Wheel Assembly",
     description:
       "Precision parametric rim and tire CAD design optimized for structural integrity and aerodynamics.",
@@ -151,7 +172,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Converging Pipe CFD Simulation",
     description:
       "Computational Fluid Dynamics (CFD) simulation examining velocity contours and pressure distribution.",
@@ -172,7 +193,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Laminar Pipe Flow Analysis",
     description:
       "Conducted a computational analysis of laminar flow through a constant-diameter pipe in ANSYS 2026 R1 (Student). The simulation effectively captures the development of a parabolic velocity profile, characterized by maximum velocity at the centerline and near-zero velocity at the walls due to the no-slip condition.",
@@ -193,7 +214,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Cantilever Beam FEA",
     description:
       "Performed a Static Structural analysis of a cantilever beam in ANSYS 2026 R1 (Student). Applied a point load at the free end with a fixed support at the base. Results show a maximum total deformation of 0.1925 mm at the free end, with zero deformation at the fixed support.",
@@ -214,7 +235,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "Turbulent Flow Over a Backward-Facing Step",
     description:
       "Conducted a NASA-validated CFD simulation of turbulent flow over a backward-facing step. Validated wall shear stress and reattachment points against empirical NASA data to ensure computational accuracy.",
@@ -235,7 +256,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "Laminar Boundary Layer Over a Flat Plate",
     description:
       "Simulated the development of a laminar boundary layer over a flat plate. Successfully captured velocity contours and analyzed the boundary layer thickness growth along the length of the plate.",
@@ -256,7 +277,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "CR7 Interactive Tribute Experience",
     description:
       "An immersive web experience celebrating Cristiano Ronaldo's legacy, featuring a dynamic 1,000-goal tracker, 3D elements, and cinematic animations.",
