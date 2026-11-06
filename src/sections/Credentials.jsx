@@ -43,6 +43,7 @@ const Credentials = () => {
   ];
 
   const achievements = [
+    "/assets/projects/aakruti_participation_certificate.jpg",
     "/assets/projects/innovate your community.jpeg",   
     "/assets/projects/drone hunt.jpeg",
     "/assets/projects/Yukta_2026.jpg",
