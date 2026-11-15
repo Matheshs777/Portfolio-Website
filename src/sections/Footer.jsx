@@ -2,10 +2,11 @@ const socialLinks = [
   {
     id: 1,
     name: "GitHub",
+    color: "#a855f7",
     link: "https://github.com/Matheshs777",
     hoverClass: "hover:border-purple-500 hover:shadow-[0_0_25px_rgba(168,85,247,0.6)]",
     icon: (
-      <svg className="w-7 h-7 fill-white group-hover:animate-[socialWiggle_0.5s_ease-in-out]" viewBox="0 0 24 24" aria-hidden="true">
+      <svg className="w-7 h-7 fill-white group-hover:scale-110 transition-transform duration-300 ease-out" viewBox="0 0 24 24" aria-hidden="true">
         <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
       </svg>
     ),
@@ -13,10 +14,11 @@ const socialLinks = [
   {
     id: 2,
     name: "LinkedIn",
+    color: "#38bdf8",
     link: "https://www.linkedin.com/in/mathesh-s-598ab7367",
     hoverClass: "hover:border-sky-500 hover:shadow-[0_0_25px_rgba(56,189,248,0.6)]",
     icon: (
-      <svg className="w-7 h-7 group-hover:animate-[socialWiggle_0.5s_ease-in-out]" viewBox="0 0 24 24" aria-hidden="true">
+      <svg className="w-7 h-7 group-hover:scale-110 transition-transform duration-300 ease-out" viewBox="0 0 24 24" aria-hidden="true">
         <rect width="24" height="24" rx="3.5" fill="#0A66C2" />
         <path
           fill="#ffffff"
@@ -29,10 +31,11 @@ const socialLinks = [
   {
     id: 3,
     name: "Instagram",
+    color: "#ec4899",
     link: "https://www.instagram.com/mathesh_x_7?igsh=MWk3ejQ5MTBmZmNrZg%3D%3D",
     hoverClass: "hover:border-pink-500 hover:shadow-[0_0_25px_rgba(236,72,153,0.6)]",
     icon: (
-      <svg className="w-7 h-7 group-hover:animate-[socialWiggle_0.5s_ease-in-out]" viewBox="0 0 24 24" aria-hidden="true">
+      <svg className="w-7 h-7 group-hover:scale-110 transition-transform duration-300 ease-out" viewBox="0 0 24 24" aria-hidden="true">
         <defs>
           <radialGradient id="igGrad" gradientUnits="userSpaceOnUse" cx="6" cy="25" r="28">
             <stop offset="0" stopColor="#FFDD55" />
@@ -57,10 +60,11 @@ const socialLinks = [
   {
     id: 4,
     name: "Gmail",
+    color: "#ef4444",
     link: "mailto:matheshs777@gmail.com",
     hoverClass: "hover:border-red-500 hover:shadow-[0_0_25px_rgba(239,68,68,0.6)]",
     icon: (
-      <svg className="w-7 h-7 group-hover:animate-[socialWiggle_0.5s_ease-in-out]" viewBox="0 0 48 48" aria-hidden="true">
+      <svg className="w-7 h-7 group-hover:scale-110 transition-transform duration-300 ease-out" viewBox="0 0 48 48" aria-hidden="true">
         <path fill="#4caf50" d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.657,0,3-1.343,3-3V16.2z" />
         <path fill="#1e88e5" d="M3,16.2l3.614,1.71L13,23.7V40H6c-1.657,0-3-1.343-3-3V16.2z" />
         <polygon fill="#e53935" points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17" />
@@ -72,10 +76,11 @@ const socialLinks = [
   {
     id: 5,
     name: "WhatsApp",
+    color: "#22c55e",
     link: "https://wa.me/916369669003",
     hoverClass: "hover:border-green-500 hover:shadow-[0_0_25px_rgba(34,197,94,0.6)]",
     icon: (
-      <svg className="w-7 h-7 group-hover:animate-[socialWiggle_0.5s_ease-in-out]" viewBox="0 0 24 24" aria-hidden="true">
+      <svg className="w-7 h-7 group-hover:scale-110 transition-transform duration-300 ease-out" viewBox="0 0 24 24" aria-hidden="true">
         <rect width="24" height="24" rx="6" fill="#25D366" />
         <path
           fill="#ffffff"
@@ -88,10 +93,11 @@ const socialLinks = [
   {
     id: 6,
     name: "Sketchfab",
+    color: "#22d3ee",
     link: "https://sketchfab.com/Mathesh_7",
     hoverClass: "hover:border-cyan-400 hover:shadow-[0_0_25px_rgba(34,211,238,0.6)]",
     icon: (
-      <svg className="w-7 h-7 group-hover:animate-[socialWiggle_0.5s_ease-in-out]" viewBox="0 0 180 180" aria-hidden="true">
+      <svg className="w-7 h-7 group-hover:scale-110 transition-transform duration-300 ease-out" viewBox="0 0 180 180" aria-hidden="true">
         <circle cx="90" cy="90" r="90" fill="#1AA9DB" />
         <polygon points="89.1,35.4 134.9,61.9 89.1,86.3 43.2,61.9" fill="#ffffff" />
         <polygon points="43.3,76 82.2,96.9 82.2,143.5 43.3,121.2" fill="#ffffff" />
@@ -102,26 +108,69 @@ const socialLinks = [
 ];
 
 const socialStyles = `
-@keyframes socialPop {
-  0%   { opacity: 0; transform: translateY(24px) scale(0.4) rotate(-120deg); }
-  70%  { opacity: 1; transform: translateY(-4px) scale(1.12) rotate(8deg); }
-  100% { opacity: 1; transform: translateY(0) scale(1) rotate(0); }
+/* 1. "Exploded view" -> snaps together like an assembly */
+@keyframes sxAssemble {
+  0%   { opacity: 0; transform: translate(var(--ox), var(--oy)) rotate(var(--or)) scale(0.6); filter: blur(6px); }
+  65%  { opacity: 1; filter: blur(0); }
+  82%  { transform: translate(0, 0) rotate(0) scale(1.08); }
+  100% { opacity: 1; transform: translate(0, 0) rotate(0) scale(1); filter: blur(0); }
 }
-@keyframes socialFloat {
-  0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-6px); }
+/* 2. Orbit ring that keeps turning like a gear / CFD swirl */
+@keyframes sxSpin { to { transform: rotate(360deg); } }
+/* 3. CAD centre-line drawing itself */
+@keyframes sxLine { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+.sx-item { animation: sxAssemble 0.9s cubic-bezier(0.2, 0.9, 0.3, 1) var(--d) both; }
+
+.sx-ring {
+  position: absolute; inset: -6px; border-radius: 9999px;
+  border: 1.5px dashed var(--c); opacity: 0.25;
+  animation: sxSpin 14s linear infinite;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
 }
-@keyframes socialRing {
-  0%   { transform: scale(1);   opacity: 0.7; }
-  100% { transform: scale(1.8); opacity: 0; }
+.sx-btn:hover .sx-ring { opacity: 1; animation-duration: 2.5s; }
+
+/* CAD-style selection brackets */
+.sx-corner {
+  position: absolute; width: 9px; height: 9px;
+  border: 0 solid var(--c); opacity: 0;
+  transition: all 0.3s ease; pointer-events: none;
 }
-@keyframes socialWiggle {
-  0%, 100% { transform: rotate(0) scale(1.15); }
-  25%      { transform: rotate(-16deg) scale(1.25); }
-  75%      { transform: rotate(16deg) scale(1.25); }
+.sx-tl { top: -11px; left: -11px;  border-top-width: 2px;    border-left-width: 2px; }
+.sx-tr { top: -11px; right: -11px; border-top-width: 2px;    border-right-width: 2px; }
+.sx-bl { bottom: -11px; left: -11px;  border-bottom-width: 2px; border-left-width: 2px; }
+.sx-br { bottom: -11px; right: -11px; border-bottom-width: 2px; border-right-width: 2px; }
+.sx-btn:hover .sx-corner { opacity: 1; }
+.sx-btn:hover .sx-tl { transform: translate(4px, 4px); }
+.sx-btn:hover .sx-tr { transform: translate(-4px, 4px); }
+.sx-btn:hover .sx-bl { transform: translate(4px, -4px); }
+.sx-btn:hover .sx-br { transform: translate(-4px, -4px); }
+
+/* dimension-callout label */
+.sx-label {
+  position: absolute; bottom: calc(100% + 16px); left: 50%;
+  transform: translate(-50%, 6px);
+  padding: 2px 8px; white-space: nowrap;
+  font: 600 10px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.15em; text-transform: uppercase;
+  color: var(--c); background: rgba(0, 0, 0, 0.9);
+  border: 1px solid var(--c); border-radius: 4px;
+  opacity: 0; transition: all 0.25s ease; pointer-events: none;
 }
+.sx-label::after {
+  content: ""; position: absolute; top: 100%; left: 50%;
+  width: 1px; height: 8px; background: var(--c);
+}
+.sx-btn:hover .sx-label { opacity: 1; transform: translate(-50%, 0); }
+
+.sx-line {
+  transform-origin: left center;
+  animation: sxLine 1.4s ease-out 0.2s both;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .social-item { animation: none !important; }
+  .sx-item, .sx-ring, .sx-line { animation: none !important; }
 }
 `;
 
@@ -143,13 +192,18 @@ const Footer = () => {
         </div>
 
         {/* Social Buttons */}
-        <div className="flex items-center justify-center gap-5">
+        <div className="relative flex flex-wrap items-center justify-center gap-x-7 gap-y-6">
+          {/* dashed CAD centre-line */}
+          <span className="sx-line pointer-events-none absolute left-0 right-0 top-1/2 hidden sm:block h-px bg-[repeating-linear-gradient(90deg,rgba(255,255,255,0.18)_0_8px,transparent_8px_14px)]" />
           {socialLinks.map((social, i) => (
             <span
               key={social.id}
-              className="social-item inline-block"
+              className="sx-item relative z-10 inline-block"
               style={{
-                animation: `socialPop 0.7s ease-out ${i * 0.12}s both, socialFloat 3.2s ease-in-out ${0.8 + i * 0.12}s infinite`,
+                "--d": `${i * 0.12}s`,
+                "--ox": i % 2 ? "28px" : "-28px",
+                "--oy": i % 2 ? "-44px" : "44px",
+                "--or": i % 2 ? "40deg" : "-40deg",
               }}
             >
               <a
@@ -157,10 +211,15 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
                 aria-label={social.name}
-                className={`group relative flex items-center justify-center w-14 h-14 rounded-full border border-white/15 bg-black/80 hover:scale-110 active:scale-90 transition-all duration-300 ease-out shadow-md ${social.hoverClass}`}
+                style={{ "--c": social.color }}
+                className={`sx-btn group relative flex items-center justify-center w-14 h-14 rounded-full border border-white/15 bg-black/80 hover:scale-110 active:scale-90 transition-all duration-300 ease-out shadow-md ${social.hoverClass}`}
               >
-                {/* expanding ring on hover */}
-                <span className="pointer-events-none absolute inset-0 rounded-full border-2 border-white/50 opacity-0 group-hover:animate-[socialRing_0.9s_ease-out_infinite]" />
+                <span className="sx-ring" />
+                <span className="sx-corner sx-tl" />
+                <span className="sx-corner sx-tr" />
+                <span className="sx-corner sx-bl" />
+                <span className="sx-corner sx-br" />
+                <span className="sx-label">{social.name}</span>
                 {social.icon}
               </a>
             </span>
