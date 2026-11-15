@@ -70,6 +70,27 @@ const socialLinks = [
       </svg>
     ),
   },
+{
+  id: 6,
+  name: "Sketchfab",
+  link: "https://sketchfab.com/Mathesh_7",
+  hoverClass: "hover:border-cyan-400 hover:shadow-[0_0_25px_rgba(34,211,238,0.6)]",
+  icon: (
+    <svg
+      className="w-12 h-12 group-hover:scale-110 transition-transform duration-300 ease-out"
+      viewBox="0 0 180 180"
+      aria-hidden="true"
+    >
+      <circle cx="90" cy="90" r="90" fill="#1AA9DB" />
+      {/* top face */}
+      <polygon points="90,36 135,62 90,86 45,62" fill="#ffffff" />
+      {/* left face */}
+      <polygon points="43,76 82,97 82,141 43,121" fill="#ffffff" />
+      {/* right face */}
+      <polygon points="137,76 98,97 98,141 137,121" fill="#ffffff" />
+    </svg>
+  ),
+},
 ];
 
 const Footer = () => {
