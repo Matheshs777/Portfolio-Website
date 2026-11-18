@@ -24,7 +24,7 @@ export default function Marquee({
           <div
             key={i}
             className={twMerge(
-              "flex shrink-0 justify-around [gap:var(--gap)]",
+              "flex shrink-0 items-stretch justify-around [gap:var(--gap)]",
               vertical
                 ? "animate-marquee-vertical flex-col"
                 : "animate-marquee flex-row",
