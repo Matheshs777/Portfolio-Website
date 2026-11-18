@@ -109,6 +109,27 @@ export const myProjects = [
   },
   {
     id: 6,
+    title: "Jet Engine (Turbofan) Assembly",
+    description:
+      "A turbofan jet engine modeled from scratch in SOLIDWORKS, built from the internal compressor and turbine core outward to the nacelle.",
+    subDescription: [
+      "31 custom parts, 72 mates, and 41 solid bodies built with zero templates.",
+      "Core-outward architecture with aligned multi-stage compressor and turbine rotors.",
+      "Standardized origin and naming workflow across a 5-member team.",
+    ],
+    href: "https://sketchfab.com/models/5283cbda1ea2491fb7c8aa04a54ff65e/embed",
+    logo: "/assets/logos/soildworks.png",
+    image: "/assets/projects/jet-engine.png",
+    tags: [
+      {
+        id: 1,
+        name: "SolidWorks",
+        path: "/assets/logos/soildworks.png",
+      },
+    ],
+  },
+  {
+    id: 7,
     title: "4-Cylinder Engine Assembly",
     description:
       "3D parametric modeling, component mating, and dynamic motion analysis of an internal combustion engine.",
@@ -130,7 +151,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Car Suspension & Steering System",
     description:
       "Complete 3D structural model and geometric constraint design for an automotive suspension assembly.",
@@ -151,7 +172,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Automotive Car Wheel Assembly",
     description:
       "Precision parametric rim and tire CAD design optimized for structural integrity and aerodynamics.",
@@ -172,7 +193,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Converging Pipe CFD Simulation",
     description:
       "Computational Fluid Dynamics (CFD) simulation examining velocity contours and pressure distribution.",
@@ -193,7 +214,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Laminar Pipe Flow Analysis",
     description:
       "Conducted a computational analysis of laminar flow through a constant-diameter pipe in ANSYS 2026 R1 (Student). The simulation effectively captures the development of a parabolic velocity profile, characterized by maximum velocity at the centerline and near-zero velocity at the walls due to the no-slip condition.",
@@ -214,7 +235,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "Cantilever Beam FEA",
     description:
       "Performed a Static Structural analysis of a cantilever beam in ANSYS 2026 R1 (Student). Applied a point load at the free end with a fixed support at the base. Results show a maximum total deformation of 0.1925 mm at the free end, with zero deformation at the fixed support.",
@@ -235,7 +256,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "Turbulent Flow Over a Backward-Facing Step",
     description:
       "Conducted a NASA-validated CFD simulation of turbulent flow over a backward-facing step. Validated wall shear stress and reattachment points against empirical NASA data to ensure computational accuracy.",
@@ -256,7 +277,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Laminar Boundary Layer Over a Flat Plate",
     description:
       "Simulated the development of a laminar boundary layer over a flat plate. Successfully captured velocity contours and analyzed the boundary layer thickness growth along the length of the plate.",
@@ -277,7 +298,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     title: "CR7 Interactive Tribute Experience",
     description:
       "An immersive web experience celebrating Cristiano Ronaldo's legacy, featuring a dynamic 1,000-goal tracker, 3D elements, and cinematic animations.",
