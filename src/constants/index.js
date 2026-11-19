@@ -299,6 +299,90 @@ export const myProjects = [
   },
   {
     id: 15,
+    title: "Shaft Torsion FEA",
+    description:
+      "Performed a Static Structural torsion analysis on a 500 mm × 40 mm Structural Steel circular shaft in ANSYS 2026 R1 (Student). Applied a 5 × 10⁵ N·mm torsional moment at the free end with a fixed support at the opposite face to evaluate shear stress, von-Mises stress, and angular deformation.",
+    subDescription: [
+      "Maximum Shear Stress: 40.604 MPa (Equivalent von-Mises Stress: 70.328 MPa)",
+      "Total Deformation: 0.25866 mm max at the loaded end",
+      "Mesh & Setup: 3,600 sweep elements (6.0 mm body sizing) with 5 × 10⁵ N·mm moment reaction",
+    ],
+    href: "/assets/projects/Shaft Torsion report.pdf",
+    logo: "/assets/logos/ansys.png",
+    image: "/assets/projects/shaft-torsion.jpeg",
+    tags: [
+      {
+        id: 1,
+        name: "ANSYS Structural",
+        path: "/assets/logos/ansys.png",
+      },
+    ],
+  },
+  {
+    id: 16,
+    title: "Pin Fin Steady-State Thermal Analysis",
+    description:
+      "Conducted a Steady-State Thermal simulation of a 100 mm × 10 mm Aluminium K205 circular pin fin in ANSYS 2026 R1 (Student). Evaluated conductive-convective heat dissipation with a 100 °C base temperature and 30 °C ambient convection.",
+    subDescription: [
+      "Temperature Distribution: Dropped from 100 °C at the base to 85.233 °C at the tip",
+      "Heat Transfer: 4.835 W total reaction heat flow and 0.0633 W/mm² max heat flux",
+      "Path Profiling: Evaluated axial thermal gradient across 47 sampling points",
+    ],
+    href: "/assets/projects/Fin_Steady_State_Thermal_Report.pdf",
+    logo: "/assets/logos/ansys.png",
+    image: "/assets/projects/fin-thermal.jpeg",
+    tags: [
+      {
+        id: 1,
+        name: "ANSYS Thermal",
+        path: "/assets/logos/ansys.png",
+      },
+    ],
+  },
+  {
+    id: 17,
+    title: "Rotating Disc Axisymmetric FEA",
+    description:
+      "Executed a 2D axisymmetric Static Structural analysis of a rotating Structural Steel disc (125 mm × 10 mm) at 628.32 rad/s in ANSYS 2026 R1 (Student) to determine centrifugal hoop/radial stresses and radial expansion.",
+    subDescription: [
+      "Stress Results: 57.715 MPa max Equivalent (von-Mises) stress and 57.76 MPa hoop stress",
+      "Radial Deformation: 0.010511 mm max outward displacement at 628.32 rad/s",
+      "2D Axisymmetric Mesh: 200 quad-dominant elements (2.5 mm face sizing)",
+    ],
+    href: "/assets/projects/Roatating Disc Report.pdf",
+    logo: "/assets/logos/ansys.png",
+    image: "/assets/projects/rotating-disc.jpeg",
+    tags: [
+      {
+        id: 1,
+        name: "ANSYS Structural",
+        path: "/assets/logos/ansys.png",
+      },
+    ],
+  },
+  {
+    id: 18,
+    title: "Rotating Shaft Modal Vibration Analysis",
+    description:
+      "Conducted a free-vibration Modal analysis of a 600 mm Structural Steel shaft carrying a 9 kg central point mass in ANSYS 2026 R1 (Student), extracting the first 8 natural frequencies and bending/torsional mode shapes.",
+    subDescription: [
+      "Natural Frequencies: Extracted 8 modes ranging from 64.675 Hz (1st bending) to 1304.3 Hz",
+      "Mode Shapes: Identified fundamental (64.68 Hz), second (652.28 Hz), and third (1046.5 Hz) bending modes",
+      "Beam & Mass Modeling: 1D circular beam (R = 15 mm) with 9 kg lumped mass at mid-span",
+    ],
+    href: "/assets/projects/Rotating_Shaft_Vibration_Report.pdf",
+    logo: "/assets/logos/ansys.png",
+    image: "/assets/projects/shaft-vibration.jpeg",
+    tags: [
+      {
+        id: 1,
+        name: "ANSYS Modal",
+        path: "/assets/logos/ansys.png",
+      },
+    ],
+  },
+  {
+    id: 19,
     title: "CR7 Interactive Tribute Experience",
     description:
       "An immersive web experience celebrating Cristiano Ronaldo's legacy, featuring a dynamic 1,000-goal tracker, 3D elements, and cinematic animations.",
