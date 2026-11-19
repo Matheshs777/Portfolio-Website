@@ -309,7 +309,7 @@ export const myProjects = [
     ],
     href: "/assets/projects/Shaft Torsion report.pdf",
     logo: "/assets/logos/ansys.png",
-    image: "/assets/projects/shaft-torsion.jpeg",
+    image: "/assets/projects/shaft-torsion.png",
     tags: [
       {
         id: 1,
@@ -330,7 +330,7 @@ export const myProjects = [
     ],
     href: "/assets/projects/Fin_Steady_State_Thermal_Report.pdf",
     logo: "/assets/logos/ansys.png",
-    image: "/assets/projects/fin-thermal.jpeg",
+    image: "/assets/projects/fin-thermal.png",
     tags: [
       {
         id: 1,
@@ -351,7 +351,7 @@ export const myProjects = [
     ],
     href: "/assets/projects/Roatating Disc Report.pdf",
     logo: "/assets/logos/ansys.png",
-    image: "/assets/projects/rotating-disc.jpeg",
+    image: "/assets/projects/rotating-disc.png",
     tags: [
       {
         id: 1,
