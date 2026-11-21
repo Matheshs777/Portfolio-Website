@@ -2,6 +2,7 @@ const Credentials = () => {
   const certificates = [
     "/assets/projects/SOLIDWORKS xDesign Associate Certificate.png",
     "/assets/projects/SOLIDWORKS xShape Associate Certificate.png",
+    "/assets/projects/SOLIDWORKS Additive Manufacturing Associate.png",
     "/assets/projects/soildwoks xdesign for educadion.jpeg", 
      "/assets/projects/CATIA - Perform as a Mechanical Designer.jpg",
      "/assets/projects/SOLIDWORKS 3D CAD for Education.jpg",
