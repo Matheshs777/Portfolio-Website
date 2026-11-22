@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/Frameworks";
+import GitCityLiveCard from "../components/GitCityLiveCard";
 
 const About = () => {
   const grid2Container = useRef();
@@ -131,6 +132,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <GitCityLiveCard />
     </section>
   );
 };
