@@ -130,6 +130,27 @@ export const myProjects = [
   },
   {
     id: 7,
+    title: "Universal Joint (Hooke's Coupling) Assembly",
+    description:
+      "A mechanical universal joint assembly modeled and constrained in SOLIDWORKS for rotational torque transmission between inclined shafts.",
+    subDescription: [
+      "Assembly Scale: 19 resolved part components and 19 solid bodies built from 6 unique parts (Bolt, Bush, Fork, Nut, Pin, Shaft).",
+      "Mates & Constraints: 22 top-level mates evaluated on rebuild for smooth multi-axis angular articulation.",
+      "Motion Study: Verified smooth 360° shaft rotation in SOLIDWORKS and published as an interactive 3D web model.",
+    ],
+    href: "https://sketchfab.com/models/53268d4b2c7c4603a463788f45f81caf/embed",
+    logo: "/assets/logos/soildworks.png",
+    image: "/assets/projects/Universal Joint isometric view.png",
+    tags: [
+      {
+        id: 1,
+        name: "SolidWorks",
+        path: "/assets/logos/soildworks.png",
+      },
+    ],
+  },
+  {
+    id: 8,
     title: "4-Cylinder Engine Assembly",
     description:
       "3D parametric modeling, component mating, and dynamic motion analysis of an internal combustion engine.",
@@ -151,7 +172,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Car Suspension & Steering System",
     description:
       "Complete 3D structural model and geometric constraint design for an automotive suspension assembly.",
@@ -172,7 +193,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Automotive Car Wheel Assembly",
     description:
       "Precision parametric rim and tire CAD design optimized for structural integrity and aerodynamics.",
@@ -193,7 +214,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Converging Pipe CFD Simulation",
     description:
       "Computational Fluid Dynamics (CFD) simulation examining velocity contours and pressure distribution.",
@@ -214,7 +235,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "Laminar Pipe Flow Analysis",
     description:
       "Conducted a computational analysis of laminar flow through a constant-diameter pipe in ANSYS 2026 R1 (Student). The simulation effectively captures the development of a parabolic velocity profile, characterized by maximum velocity at the centerline and near-zero velocity at the walls due to the no-slip condition.",
@@ -235,7 +256,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "Cantilever Beam FEA",
     description:
       "Performed a Static Structural analysis of a cantilever beam in ANSYS 2026 R1 (Student). Applied a point load at the free end with a fixed support at the base. Results show a maximum total deformation of 0.1925 mm at the free end, with zero deformation at the fixed support.",
@@ -256,7 +277,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Turbulent Flow Over a Backward-Facing Step",
     description:
       "Conducted a NASA-validated CFD simulation of turbulent flow over a backward-facing step. Validated wall shear stress and reattachment points against empirical NASA data to ensure computational accuracy.",
@@ -277,7 +298,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     title: "Laminar Boundary Layer Over a Flat Plate",
     description:
       "Simulated the development of a laminar boundary layer over a flat plate. Successfully captured velocity contours and analyzed the boundary layer thickness growth along the length of the plate.",
@@ -298,7 +319,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     title: "Shaft Torsion FEA",
     description:
       "Performed a Static Structural torsion analysis on a 500 mm × 40 mm Structural Steel circular shaft in ANSYS 2026 R1 (Student). Applied a 5 × 10⁵ N·mm torsional moment at the free end with a fixed support at the opposite face to evaluate shear stress, von-Mises stress, and angular deformation.",
@@ -319,7 +340,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 16,
+    id: 17,
     title: "Pin Fin Steady-State Thermal Analysis",
     description:
       "Conducted a Steady-State Thermal simulation of a 100 mm × 10 mm Aluminium K205 circular pin fin in ANSYS 2026 R1 (Student). Evaluated conductive-convective heat dissipation with a 100 °C base temperature and 30 °C ambient convection.",
@@ -340,7 +361,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 17,
+    id: 18,
     title: "Rotating Disc Axisymmetric FEA",
     description:
       "Executed a 2D axisymmetric Static Structural analysis of a rotating Structural Steel disc (125 mm × 10 mm) at 628.32 rad/s in ANSYS 2026 R1 (Student) to determine centrifugal hoop/radial stresses and radial expansion.",
@@ -361,7 +382,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 18,
+    id: 19,
     title: "Rotating Shaft Modal Vibration Analysis",
     description:
       "Conducted a free-vibration Modal analysis of a 600 mm Structural Steel shaft carrying a 9 kg central point mass in ANSYS 2026 R1 (Student), extracting the first 8 natural frequencies and bending/torsional mode shapes.",
@@ -382,7 +403,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 19,
+    id: 20,
     title: "CR7 Interactive Tribute Experience",
     description:
       "An immersive web experience celebrating Cristiano Ronaldo's legacy, featuring a dynamic 1,000-goal tracker, 3D elements, and cinematic animations.",
@@ -392,18 +413,18 @@ export const myProjects = [
       "Cinematic UX: Fluid scrolling via Lenis, asset optimization with Sharp, and self-hosted fonts.",
     ],
     href: "https://cr7-tribute-page.vercel.app/",
-    logo: "/assets/logos/react.png", 
+    logo: "/assets/logos/react.png",
     image: "/assets/projects/tribute.png",
     tags: [
       {
         id: 1,
         name: "React 19 / TS",
-        path: "/assets/logos/React.png", 
+        path: "/assets/logos/React.png",
       },
       {
         id: 2,
         name: "Three.js / GSAP",
-        path: "/assets/logos/threejs.png", 
+        path: "/assets/logos/threejs.png",
       },
     ],
   },
@@ -507,6 +528,7 @@ export const reviews = [
     href: "https://lnkd.in/p/gHw8WQDY",
   },
 ];
+
 export const navLinks = [
   { id: 1, name: "Home", href: "#home" },
   { id: 2, name: "About", href: "#about" },
