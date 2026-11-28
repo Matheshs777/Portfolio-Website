@@ -128,8 +128,29 @@ export const myProjects = [
       },
     ],
   },
-  {
+ {
     id: 7,
+    title: "Differential Gearbox Assembly",
+    description:
+      "3D parametric CAD assembly of a mechanical differential gearbox modeled and validated in SOLIDWORKS.",
+    subDescription: [
+      "Assembly Scale: 21 total parts (10 unique files) featuring a translucent carrier housing, splined shafts, and bevel gears.",
+      "Gear Train: 1:2 bevel gear reduction (32T side gears & 16T pinions, Module 1.5) calibrated with 0.2–0.3 mm backlash.",
+      "Kinematics: 46 active mates verified interference-free across a full 360° rotation cycle.",
+    ],
+    href: "https://sketchfab.com/models/9502d995d40a46c4bbc2fd7765e4482f/embed",
+    logo: "/assets/logos/soildworks.png",
+    image: "/assets/projects/differential-gearbox.png",
+    tags: [
+      {
+        id: 1,
+        name: "SolidWorks",
+        path: "/assets/logos/soildworks.png",
+      },
+    ],
+  },
+  {
+    id: 8,
     title: "Universal Joint (Hooke's Coupling) Assembly",
     description:
       "A mechanical universal joint assembly modeled and constrained in SOLIDWORKS for rotational torque transmission between inclined shafts.",
@@ -150,7 +171,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "4-Cylinder Engine Assembly",
     description:
       "3D parametric modeling, component mating, and dynamic motion analysis of an internal combustion engine.",
@@ -172,7 +193,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Car Suspension & Steering System",
     description:
       "Complete 3D structural model and geometric constraint design for an automotive suspension assembly.",
@@ -193,7 +214,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Automotive Car Wheel Assembly",
     description:
       "Precision parametric rim and tire CAD design optimized for structural integrity and aerodynamics.",
@@ -214,7 +235,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "Converging Pipe CFD Simulation",
     description:
       "Computational Fluid Dynamics (CFD) simulation examining velocity contours and pressure distribution.",
@@ -235,7 +256,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "Laminar Pipe Flow Analysis",
     description:
       "Conducted a computational analysis of laminar flow through a constant-diameter pipe in ANSYS 2026 R1 (Student). The simulation effectively captures the development of a parabolic velocity profile, characterized by maximum velocity at the centerline and near-zero velocity at the walls due to the no-slip condition.",
@@ -256,7 +277,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Cantilever Beam FEA",
     description:
       "Performed a Static Structural analysis of a cantilever beam in ANSYS 2026 R1 (Student). Applied a point load at the free end with a fixed support at the base. Results show a maximum total deformation of 0.1925 mm at the free end, with zero deformation at the fixed support.",
@@ -277,7 +298,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     title: "Turbulent Flow Over a Backward-Facing Step",
     description:
       "Conducted a NASA-validated CFD simulation of turbulent flow over a backward-facing step. Validated wall shear stress and reattachment points against empirical NASA data to ensure computational accuracy.",
@@ -298,7 +319,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     title: "Laminar Boundary Layer Over a Flat Plate",
     description:
       "Simulated the development of a laminar boundary layer over a flat plate. Successfully captured velocity contours and analyzed the boundary layer thickness growth along the length of the plate.",
@@ -319,7 +340,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 16,
+    id: 17,
     title: "Shaft Torsion FEA",
     description:
       "Performed a Static Structural torsion analysis on a 500 mm × 40 mm Structural Steel circular shaft in ANSYS 2026 R1 (Student). Applied a 5 × 10⁵ N·mm torsional moment at the free end with a fixed support at the opposite face to evaluate shear stress, von-Mises stress, and angular deformation.",
@@ -340,7 +361,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 17,
+    id: 18,
     title: "Pin Fin Steady-State Thermal Analysis",
     description:
       "Conducted a Steady-State Thermal simulation of a 100 mm × 10 mm Aluminium K205 circular pin fin in ANSYS 2026 R1 (Student). Evaluated conductive-convective heat dissipation with a 100 °C base temperature and 30 °C ambient convection.",
@@ -361,7 +382,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 18,
+    id: 19,
     title: "Rotating Disc Axisymmetric FEA",
     description:
       "Executed a 2D axisymmetric Static Structural analysis of a rotating Structural Steel disc (125 mm × 10 mm) at 628.32 rad/s in ANSYS 2026 R1 (Student) to determine centrifugal hoop/radial stresses and radial expansion.",
@@ -382,7 +403,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 19,
+    id: 20,
     title: "Rotating Shaft Modal Vibration Analysis",
     description:
       "Conducted a free-vibration Modal analysis of a 600 mm Structural Steel shaft carrying a 9 kg central point mass in ANSYS 2026 R1 (Student), extracting the first 8 natural frequencies and bending/torsional mode shapes.",
@@ -403,7 +424,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 20,
+    id: 21,
     title: "CR7 Interactive Tribute Experience",
     description:
       "An immersive web experience celebrating Cristiano Ronaldo's legacy, featuring a dynamic 1,000-goal tracker, 3D elements, and cinematic animations.",
